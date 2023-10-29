@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Jeffrey Cedeño</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Cedeño, Jeffrey</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link  active-link">
+                            <i class='bx bx-home-smile nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase nav__icon'></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external'></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.jpg" alt="" class="home__img">
+                            <h1 class="home__title">CEDEÑO <b>JEFFREY</b></h1>
+                            <h3 class="home__profession">IT Engineer</h3>
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                            <div>
+                                <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map-pin home__icon'></i> Bugaba, Chiriquí, Panamá
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> Jeffreyacq@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone-call home__icon'></i> (+507)68182947
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i>@Jeffreycq
+                        </a>
+                        <a href="" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook-square social__icon'></i>Jeffrey Cedeño
+                        </a>
+                        <a href="" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram-alt social__icon'></i>@Jeffreycq
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">PROFILE</h2>
+
+                    <p class="profile__description">Results-driven IT engineer with 5+ of experience in
+                        designing, implementing, and maintaining complex IT systems. Proficient in a wide range of
+                        technologies, including network administration, system integration, and cybersecurity. Adept at
+                        collaborating with cross-functional teams to deliver innovative solutions that optimize business
+                        operations.</p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">EDUCATION</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Bachelor's degree in computer engineering.</h3>
+                                <span class="education__studies">Universidad Latina de Panamá</span>
+                                <span class="education__year">2018 - 2022</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Industrial bachelor, emphasis in computer repair.</h3>
+                                <span class="education__studies">IPT Dr. Arnulfo Arias Madrid</span>
+                                <span class="education__year">2007 - 2010</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">SKILLS</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Network Administration
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>H&S Troubleshooting
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Technical Support
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>System Upgrades and Updates
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Inventory Management
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>IT Documentation
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>User Account Management
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Security Managements
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">EXPERIENCE</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">IT Administrator</h3>
+                                <span class="experience__company">From 2022 - Today | Forever Oceans</span>
+                                <p class="experience__description">Administration of the different systems and tools of
+                                    the company, ensuring that everything is in proper functioning and adequacy. My role
+                                    includes, technical support, management and configuration of monitoring tools, user
+                                    management, network infrastructure management, systems setup and configuration,
+                                    server maintenance. In my years in the company I have helped to develop and adapt
+                                    different tools for the improvement of the company.</p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">SysAdmin</h3>
+                                <span class="experience__company">From 2017 - 2022 | Jerusalem De Panamá S.A.</span>
+                                <p class="experience__description">Administration of a large number of point of sale
+                                    terminals, windows servers, in-house applications, on-site technical support,
+                                    creation of applications for inventory management and price inquiries. During my
+                                    time in the company I helped to improve the inventory system, helped in the
+                                    implementation of backup software as well as improving the network and its different
+                                    clients.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">CERTIFICATIONS</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Comptia CySA+</h3>
+                            <p class="certificate__description">Description</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Comptia Security+</h3>
+                            <p class="certificate__description">Description</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">CISCO Introduction to CyberSecurity</h3>
+                            <p class="certificate__description">Descrition</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">REFERENCES</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Director</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone 999-999-999</li>
+                                <li>Email Clay.doe@doe.com</li>
+                            </ul>
+                        </div>
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Director</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                                <li>Phone 999-999-999</li>
+                                <li>Email Clay.doe@doe.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">LANGUAGES</h2>
+                    <div class="languages__container">
+                        <ul class="languages__container bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Spanish
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">INTERESTS</h2>
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-music interests__icon'></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-code-alt interests__icon'></i>
+                            <span class="interests__name">Code</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-joystick interests__icon'></i>
+                            <span class="interests__name">Videogames</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-book-open interests__icon'></i>
+                            <span class="interests__name">Read</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
